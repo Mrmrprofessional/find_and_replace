@@ -8,12 +8,14 @@ var string = function(string,find,replace){
 }
 
 
-// $(document).ready(function() {
-//     $("form#roman").submit(function(event){
-//         var number = $("input#number").val();
-//         var result = romanNumeral(number);
-//         $(".roman").text(result);
-//         $("#result").show();
-//         event.preventDefault();
-//     });
-// });
+$(document).ready(function() {
+    $("form#fandr").submit(function(event){
+        var string = $("input#string").val();
+        var find = $("input#find").val();
+        var replace = $("input#replace").val();
+        var result = findReplace(string, find, replace);
+        $(".result").text(result);
+        $("#result").show();
+        event.preventDefault();
+    });
+});
