@@ -7,6 +7,12 @@ var string = function(string,find,replace){
     return string;
 }
 
+var findReplace = function(string,find,replace){
+    var regEx = new RegExp(find, "ig");
+    var result = string.replace(regEx, replace);
+
+    return result;
+}
 
 $(document).ready(function() {
     $("form#fandr").submit(function(event){
