@@ -1,8 +1,8 @@
-var findReplace = function(string,find,replace){
+
+
+var string = function(string,find,replace){
     return string;
 }
-
-
 
 
 // $(document).ready(function() {
