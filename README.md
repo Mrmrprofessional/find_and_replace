@@ -1,17 +1,17 @@
 # Roman Numerals_
 
-#####  Enter a number to find its Roman numeral equivalent, 9/10/15_
+#####  Find and replace words in a string, 9/10/15_
 
-#### By _Mike Rapp & Kelli Margaret_
+#### By _Mike Rapp_
 
 ## Description
 
-_Return a number less than 3999 with its Roman numeral equivalent._
+_Allows users to enter a string, a word to be found, and word to replace the found word. Then it returns the string with the found word replaced with the replace word._
 
 ## Setup
 
- * Clone this repository: run command ```git clone https://github.com/kellimargaret/Roman-Numerals.git``` then change directory to top level of project folder.
- * Open romanNumeral.html in your browser.
+ * Clone this repository: run command ```git clone https://github.com/mrmrprofessional/find_and_replace.git``` then change directory to top level of project folder.
+ * Open findReplace.html in your browser.
 
 ## Technologies Used
 
@@ -19,7 +19,7 @@ _HTML, CSS, JavaScript, Mocha, Chai_
 
 ### Legal
 
-Copyright (c) 2015 Mike Rapp & Kelli Margaret
+Copyright (c) 2015 Mike Rapp
 
 This software is licensed under the MIT license.
 
