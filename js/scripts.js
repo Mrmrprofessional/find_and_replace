@@ -1,5 +1,5 @@
-var findReplace = function(string,find,replace){
-    var result = string.replace(find, replace)
+var caseFindReplace = function(string,find,replace){
+    var result = string.replace(find, replace);
     return result;
 }
 

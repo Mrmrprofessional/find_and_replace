@@ -5,7 +5,11 @@ describe('findReplace', function(){
     });
 
     it("does what it is supposed to because this code review is way to easy", function(){
-        expect(findReplace("Hello world", "world", "universe")).to.equal("Hello universe");
+        expect(caseFindReplace("Hello world", "world", "universe")).to.equal("Hello universe");
+    });
+
+    it("handles non-case-sensitive cases", function(){
+        expect(findReplace("Hello World", "world", "universe")).to.equal("Hello universe");
     });
 
 });
