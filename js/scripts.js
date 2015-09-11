@@ -1,4 +1,7 @@
-
+var findReplace = function(string,find,replace){
+    var result = string.replace(find, replace)
+    return result;
+}
 
 var string = function(string,find,replace){
     return string;
